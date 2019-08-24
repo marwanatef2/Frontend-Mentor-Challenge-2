@@ -165,9 +165,10 @@ td, th{
   font-size: 120%;
 }
 #copyright{
-  font-size: 90%;
+  font-size: 80%;
   float: right;
   color: white;
+  margin-top: 40px;
 }
 #copyright a{
   text-decoration: none;
@@ -263,5 +264,41 @@ td, th{
     float: none;
     width: 70%;
     margin: 10px auto;
+  }
+
+  .bottom{
+    margin-top: 100px;
+    height: auto;
+  }
+  .contact{
+    width: 100%;
+    float: none;
+  }
+  input{
+    width: 90%;
+  }
+  button{
+    width: 30%;
+    float: right;
+    margin: 10px;
+    margin-right: 0;
+  }
+  form{
+    margin-bottom: 80px;
+  }
+
+  table{
+    width: 90%;
+    float: none;
+    margin: 30px auto;
+  }
+  td, th{
+    display: block;
+    margin-top: 10px;
+  }
+  #copyright{
+    text-align: center;
+    float: none;
+    margin-top: 40px;
   }
 }
