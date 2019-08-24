@@ -121,6 +121,59 @@ p{
   margin-top: -35px;
 }
 
+.bottom{
+  background-color: hsl(243, 87%, 12%);
+  padding: 50px;
+  margin-top: 1000px;
+  height: 200px;
+  font-size: 80%;
+}
+
+.contact {
+  width: 35%;
+  float: left;
+}
+.contact img{
+  margin-right: 12px;
+}
+.contact p{
+  color: white;
+}
+
+.contact button{
+  padding: 8px;
+  width: 150px;
+}
+input{
+  padding: 10px;
+  border-radius: 5px;
+  width: 250px;
+}
+
+table {
+  width: 60%;
+  float: left;
+  color: white;
+  margin-left: 70px;
+}
+td, th{
+  padding: 8px 20px;
+  text-align: left;
+  font-size: ;
+}
+#feedback{
+  font-size: 120%;
+}
+#copyright{
+  font-size: 90%;
+  float: right;
+  color: white;
+}
+#copyright a{
+  text-decoration: none;
+  color : white;
+}
+
 @media only screen and (max-width: 376px) {
   body{
     /* text-align: center; */
