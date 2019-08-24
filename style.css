@@ -41,7 +41,7 @@ body{
 .introtext h1{
   font-size: 350%;
   color: hsl(243, 87%, 12%);
-}
+ }
 .introtext p{
   font-size: 150%;
   color: hsl(0, 0%, 50%);
@@ -55,6 +55,33 @@ body{
   border-radius: 7px;
   text-decoration: none;
   font-size: 110%;
+}
+
+.midsection{
+  text-align: center;
+  margin: 50px;
+}
+.midsection h2{
+  color: hsl(243, 87%, 12%);
+    font-size: 250%;
+}
+.midsection p{
+  color: hsl(0, 0%, 50%);
+  width: 35%;
+  margin: 20px auto 50px;
+  font-size: 120%;
+}
+
+.middivs{
+  width: 33%;
+  float: left;
+  margin-bottom: 50px;
+}
+.middivs img{
+  margin-bottom: 15px;
+}
+.middivs h3{
+  color: hsl(243, 87%, 12%);
 }
 
 @media only screen and (max-width: 376px) {
@@ -100,5 +127,31 @@ body{
   }
   .getstarted{
     width: 40%;
+  }
+
+  .midsection{
+    margin: 750px auto 50px;
+    text-align: center;
+  }
+  .midsection h2{
+    font-size: 160%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .midsection p{
+    width: 90%;
+  }
+  .middivs{
+    width: 60%;
+    margin: 25px auto;
+    float: none;
+  }
+  .middivs img{
+    margin-bottom: 0;
+  }
+  .middivs h3{
+    margin-top: 10px;
+    margin-bottom: 35px;
   }
 }
