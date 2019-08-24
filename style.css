@@ -22,7 +22,7 @@ body{
   font-size: 120%;
 }
 
-.topsignup{
+#topsignup{
   float: right;
   margin: 45px -250px 0 0;
 }
@@ -55,4 +55,50 @@ body{
   border-radius: 7px;
   text-decoration: none;
   font-size: 110%;
+}
+
+@media only screen and (max-width: 376px) {
+  body{
+    /* text-align: center; */
+  }
+  .intro{
+    background-image: url("images/bg-intro-mobile.svg");
+    background-size: contain;
+    height: 160px;
+  }
+  #logo{
+    width: 30%;
+    margin: 30px 10px;
+  }
+  #topsignin{
+    width: 20%;
+    margin: 35px 100px 0 0;
+    font-size: 100%;
+  }
+  #topsignup{
+    margin: -70px 15px 0 0;
+    width: 20%;
+    text-align: center;
+    padding: 10px;
+    font-size: 100%;
+  }
+  #introimg{
+    float: none;
+    width: 80%;
+    margin: 40px auto 10px 30px;
+  }
+  .introtext{
+    width: 90%;
+    margin: 50px auto;
+    text-align: center;
+  }
+  .introtext h1{
+    font-size: 200%;
+  }
+  .introtext p{
+    font-size: 120%;
+  }
+  .getstarted{
+    width: 40%;
+  }
 }
