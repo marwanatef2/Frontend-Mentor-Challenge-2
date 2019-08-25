@@ -175,10 +175,7 @@ td, th{
   color : white;
 }
 
-@media only screen and (max-width: 376px) {
-  body{
-    /* text-align: center; */
-  }
+@media only screen and (max-width: 426px) {
   .intro{
     background-image: url("images/bg-intro-mobile.svg");
     background-size: contain;
